@@ -1,8 +1,10 @@
 # 2048 AI Agents — MCTS vs Expectimax
 
-A 3×3 variant of 2048 with two AI agents — **Monte Carlo Tree Search (MCTS)** and **Expectimax** — compared under limited computational budgets. Includes a live terminal visualizer to watch either agent play.
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 
-This project was implemented for **CPSC 474: Computational Intelligence for Games** at Yale University.
+A 3×3 variant of 2048 with two AI agents, Monte Carlo Tree Search (MCTS) and Expectimax, compared under limited computational budgets. Includes a live terminal visualizer to watch either agent play.
+
+This project was implemented for CPSC 474: Computational Intelligence for Games at Yale University.
 
 ---
 
@@ -12,7 +14,7 @@ This project investigates the following research question:
 
 > *How does an MCTS agent compare to a heuristic-based Expectimax agent in 2048 under limited per-move time budgets?*
 
-The key finding is that shallow Expectimax is more reliable under tight compute, but MCTS can outperform it when given sufficient search time — suggesting MCTS performance is sensitive to computational budget rather than inherently suboptimal.
+The key finding is that shallow Expectimax is more reliable under tight compute, but MCTS can outperform it when given sufficient search time, suggesting MCTS performance is sensitive to computational budget rather than inherently suboptimal.
 
 ---
 
